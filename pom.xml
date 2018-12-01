@@ -85,7 +85,7 @@
     <dependency>
       <groupId>com.google.cloud.genomics</groupId>
       <artifactId>google-genomics-utils</artifactId>
-      <version>v1-0.3</version>
+      <version>0.4</version>
       <exclusions>
         <!-- Exclude an old version of guava which is being pulled
              in by a transitive dependency google-api-client. -->
@@ -231,7 +231,7 @@
      <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-storage</artifactId>
-      <version>v1-rev76-1.22.0</version>
+      <version>v1beta1-rev193-1.24.1</version>
     </dependency>
 
     <!--  Gson: Java to Json conversion -->
